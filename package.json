@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/icon-js/javascript-library-umd-demo/issues"
   },
-  "homepage": "https://github.com/icon-js/javascript-library-umd-demo#readme"
+  "homepage": "https://github.com/icon-js/javascript-library-umd-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
