@@ -3,7 +3,7 @@ Creating a UMD JavaScript library
 
 
 
-{% highlight js %}
+```bat
 npm init -y
 
-{% endhighlight %}
+```
