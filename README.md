@@ -89,6 +89,5 @@ package.json
 
 ### Test the library
 ```bat
-## Linux
 npm run build:browser
 ```
