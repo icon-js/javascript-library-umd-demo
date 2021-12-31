@@ -18,4 +18,21 @@ touch src/index.js examples/browser/index.html examples/node/example.js
 
 ## Windows
 mkdir src dist examples\browser examples\node
+
+type nul > src/index.js
+type nul > examples/browser/index.html
+type nul > examples/node/example.js
+```
+
+folder structure should look like this:
+```bat
+.
+├── dist
+├── examples
+│   ├── browser
+│   │   └── index.html
+│   └── node
+│       └── example.js
+└── src
+    └── index.js
 ```
