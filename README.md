@@ -75,3 +75,20 @@ const path = require('path');module.exports = {
 	"presets": ["@babel/preset-env"]
 }
 ```
+
+change the main property to let it point to dist/calculator.js.  
+package.json
+```json
+"main": "dist/calculator.js",
+"scripts": {
+	"build:browser": "webpack && cp dist/calculator.js examples/browser",
+	"build:node": "webpack && cp dist/calculator.js examples/node/ && node examples/node/example.js",
+	"build": "webpack"
+}
+```
+
+### Test the library
+```bat
+## Linux
+npm run build:browser
+```
