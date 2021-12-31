@@ -11,7 +11,11 @@ npm i -D webpack webpack-cli babel-loader @babel/core @babel/preset-env
 
 Scaffold the library
 ```bat
+## Linux
 mkdir -p {src,dist,examples/browser,examples/node}
 
 touch src/index.js examples/browser/index.html examples/node/example.js
+
+## Windows
+mkdir src dist examples\browser examples\node
 ```
