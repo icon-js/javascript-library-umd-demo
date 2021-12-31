@@ -2,9 +2,13 @@
   "name": "javascript-library-umd-demo",
   "version": "1.0.0",
   "description": "Creating a UMD JavaScript library",
-  "main": "index.js",
+  // "main": "index.js",
+  "main": "dist/calculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // "test": "echo \"Error: no test specified\" && exit 1",
+    "build:browser": "webpack && cp dist/calculator.js examples/browser",
+    "build:node": "webpack && cp dist/calculator.js examples/node/ && node examples/node/example.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
